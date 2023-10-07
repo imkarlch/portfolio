@@ -1,0 +1,90 @@
+body{
+	line-height: 1.5;
+	font-size: 20px;
+	font-family: arial;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+.section{
+	background: yellow;
+	min-height: 100vh;
+	display: block;
+	position: fixed;
+	left: 270px;
+	top: 0;
+	right: o;
+	z-index: 0;
+	opacity: 1;
+}
+.aside{
+	width: 270px;
+	background: rgb(204,204,255);
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 30px;
+	height: 100%;
+	border-right: 1px solid gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+.aside .logo{
+	position: absolute;
+	top: 50px;
+	font-size: 40px;
+	text-transform: capitalize;
+}
+.aside .logo a{
+	color: rgb(153,0,76)
+	font-weight: 700;
+	padding: 15px 20px;
+	font-size: 40px;
+	letter-spacing: 5px;
+	position: relative;
+}
+.aside .logo a::before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-bottom: 5px solid black;
+	border-left: 5px solid black;
+	bottom: 0;
+	left: 0;
+}
+.aside .logo a::after{
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	top: 0;
+	right: 0;
+}
+.aside .nav li{
+	margin-bottom: 15px;
+	display: block;
+}
+.aside .nav li a{
+	font-size: 20px;
+	font-weight: 600;
+	display: block;
+	border-bottom: 1px solid gray;
+	color: black;
+	padding: 5px 15px;
+}
+.aside .nav li a.active{
+	color: red;
+}

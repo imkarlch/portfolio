@@ -1,0 +1,30 @@
+body{
+	font-family: 'Poppins' san-serif;
+	font-size: 14px;
+	min-height: 100vh;
+	margin-left: 50px;
+	margin-right: 700px;
+}
+img {
+	max-width: 320px;
+	height: 150px;
+	width: 130px;
+	border-collapse: absolute;
+	text-align: right;
+	float: right;
+}
+h1 h2 h3 h4 p{
+	color: #ec1839;
+	
+}
+.personal{
+	border: 1px solid black;
+	margin-right: 250px;
+}
+.present{
+	background-color: rgb(149,146,146);
+	margin-right: 430px;
+}
+.cont{
+	position: bottom;
+}
